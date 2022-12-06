@@ -1,0 +1,24 @@
+Package: SETapp
+Title: An Amazing Shiny App
+Version: 0.0.0.9000
+Authors@R: 
+    person("firstname", "lastname", , "your@email.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+License: What license is it under?
+Imports: 
+ config, golem, shiny, htmltools, ggplot2, bs4Dash (>=
+        0.6.0.9000), SpATS (>= 1.0.10), shinyjs, rintrojs, shinytoastr,
+        shinyalert, thinkr, attempt, DT, glue, processx, shinyWidgets,
+        pkgload, dplyr, shinycssloaders, plotly, growthPheno,
+        summarytools, ggpubr, lme4, yaml, magrittr, waiter, echarts4r,
+        data.table, tidyr, readxl, kableExtra, formattable, tibble,
+        reshape, factoextra, sever, psych, lmerTest, broom.mixed,
+        Matrix, ggrepel, emmeans,reshape2
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 7.2.2
